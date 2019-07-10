@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/textView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/factores_equival" />
+
+ 
+          <TextView
+          android:id="@+id/factsEqui1TextView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+ 
+      <TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/factores_pago_sim" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:textStyle="bold"
+         android:text="@string/P_dado_F" />
+
+     <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/p_dado_f" />
+
+     <TextView
+         android:id="@+id/TextView02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Luego:" />
+	<TextView
+         android:id="@+id/textView002"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="P = Fn(P/F , i , n)"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+
+
+	<TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/F_dado_P" />
+
+    <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:src="@drawable/f_dado_p" />
+    <TextView
+         android:id="@+id/TextView02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:text="Luego:" />
+	<TextView
+         android:id="@+id/textView002"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Fn = P(F/P , i , n)"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+	          <TextView
+          android:id="@+id/factsEqui1TextView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+      
+
+  </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

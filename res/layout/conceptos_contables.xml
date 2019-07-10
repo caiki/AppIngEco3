@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/estados_financieros" />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/balance" />
+      
+      	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="ACTIVO = PASIVO + PATRIMONIO"
+         android:textAlignment="center"
+  />
+
+		<TextView
+      	    android:id="@+id/ACTIVOSTextView01"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	    android:textStyle="bold"
+      	    android:text="-ACTIVOS"
+      	     />
+		      	<TextView
+      	    android:id="@+id/conceptsTextView01"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	     />
+ 		<TextView
+      	    android:id="@+id/PASIVOSTextView01"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	    android:textStyle="bold"
+      	    android:text="-PASIVOS"
+      	     />
+ 				<TextView
+      	    android:id="@+id/conceptsTextView02"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	     />  
+ 		<TextView
+      	    android:id="@+id/PATRIMONIOTextView01"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	    android:textStyle="bold"
+      	    android:text="-PATRIMONIO"
+      	     />
+ 		<TextView
+      	    android:id="@+id/conceptsTextView03"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	     />
+    	
+
+
+     	<TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cuentas_es_gan_per" />
+     	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+ 		 android:textStyle="bold"
+         android:layout_weight="1"
+         android:text="Utilidad Bruta:" />
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Utilidad Bruta = Ventas Netas - Costo de Ventas"
+         android:textAlignment="center"
+        
+          />
+      <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+ 		 android:textStyle="bold"
+         android:layout_weight="1"
+         android:text="Utilidad Operativa:" />      	
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Utilidad Operativa = Utilidad Bruta - Gastos de Ventas - Gastos de Administración"
+         android:textAlignment="center"
+         />
+	      <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+ 		 android:textStyle="bold"
+         android:layout_weight="1"
+         android:text="Utilidad Antes de Impuestos:" />  
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Utilidad Antes de Impuestos = Utilidad Operativa - Gastos Financieros"
+         android:textAlignment="center"
+ />
+	
+		      <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+ 		 android:textStyle="bold"
+         android:layout_weight="1"
+         android:text="Utilidad Neta del Ejercicio:" /> 
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Utilidad Neta del Ejercicio = Utilidad Antes de Impuestos - Impuesto a la Renta"
+         android:textAlignment="center"
+		 />
+  </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

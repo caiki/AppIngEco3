@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/TextView04"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="@string/costo_pond_capital"
+          android:textStyle="bold" />
+     <ImageView
+          android:id="@+id/ImageView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/costo_pond_capital" />
+
+     <TextView
+         android:id="@+id/costopondTextView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1" />
+
+	 <TextView
+          android:id="@+id/TextView02"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+        
+          android:text="@string/esc_tribut_gast_financ" />
+  <TextView
+         android:id="@+id/costopondTextView02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_weight="1" />
+  <TextView
+         android:id="@+id/costopondTextView03"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1" />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/costo_pond_capital_di" />
+	      <ImageView
+          android:id="@+id/ImageView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:src="@drawable/costo_pond_capital_di" />
+	   <TextView
+         android:id="@+id/costopondTextView04"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1" />
+	 </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

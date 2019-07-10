@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/inflacion" />
+
+      <TextView
+          android:id="@+id/inflaTextView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"/>
+
+      <ImageView
+          android:id="@+id/ImageView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:src="@drawable/inflacion" />
+      
+      <TextView
+          android:id="@+id/TextView05"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/rel_int_real_corr" />
+
+      <ImageView
+          android:id="@+id/ImageView05"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:layout_weight="1"
+          android:src="@drawable/rel_int_real_corr" />
+
+	 <ImageView
+	     android:id="@+id/ImageView05"
+	     android:layout_width="wrap_content"
+	     android:layout_height="100dp"
+	     android:src="@drawable/inflacion_des" />
+      
+      <TextView
+          android:id="@+id/TextView05"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/deflactacion" />
+
+      <TextView
+          android:id="@+id/inflaTextView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          />
+
+      <ImageView
+          android:id="@+id/ImageView05"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:src="@drawable/deflactacion" />
+
+
+  </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

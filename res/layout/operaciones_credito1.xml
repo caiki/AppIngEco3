@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+ 
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:textStyle="bold"
+         android:text="@string/cred_cuota_igual_y_peri_gracia" />
+
+ 
+
+	<TextView
+         android:id="@+id/customTextView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"/>
+	
+	 <TextView
+          android:id="@+id/TextView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_cuota_igual_int_adelantad" />
+    <ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:src="@drawable/iadelantado" />
+
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          
+          android:text="Calculo de la Cuota:" />
+	 
+	<ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:src="@drawable/cuota_iadelantado" />
+
+	<TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_cuota_igual_peri_gracia_int_adelantad"/>
+<TextView
+         android:id="@+id/customTextView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"/>
+	<TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_comer_credito_flat"/>
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="D = Precio de lista - Cuota inicial"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+	<TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Cuota FLAT (C)"/>
+	<ImageView
+          android:id="@+id/imageView2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:src="@drawable/cuota_flat" />
+
+
+  </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

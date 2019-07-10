@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+     <TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/evalu_proyectos" />
+     <TextView
+          android:id="@+id/TextView02"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/flujo_caja_economico" />
+     <ImageView
+         android:id="@+id/ImageView3"
+         android:layout_width="wrap_content"
+         android:layout_height="200dp"
+         android:layout_gravity="center"
+         android:src="@drawable/flujo_caja_economico_graf" />
+     <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/flujo_caja_economico" />
+	 <TextView
+          android:id="@+id/TextView04"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/vpn" />
+	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/vpn" />
+	       	<TextView
+      	    android:id="@+id/eval_pryTextView01"
+      	    android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content"
+      	    android:layout_weight="1" 
+      	     />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/decision_vpn" />
+	 	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/decision_vpn" />
+	 	 
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/tmar" />
+	 	 	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/tmar" />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/tir" />
+	 	 	 	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/tir" />
+	  <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/decision_tir" />
+	  	 	 	 	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/decision_tir" />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/evaluaci_vida_diferent" />
+
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="bold"
+          android:layout_weight="1"
+          android:text="@string/vae" />
+	 	 	  	 	 	 	 <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/vae" />
+	 </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

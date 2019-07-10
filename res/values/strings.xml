@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppIngEco3</string>
+ 
+ 
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+	<string name="calculadora">Calculadora Financiera</string>
+	<string name="uno">1</string>
+	<string name="dos">2</string>
+	<string name="tres">3</string>
+	<string name="cuatro">4</string>
+	<string name="cinco">5</string>
+	<string name="seis">6</string>
+	<string name="siete">7</string>
+	<string name="ocho">8</string>
+	<string name="nueve">9</string>
+	<string name="cero">0</string>
+	<string name="mas">+</string>
+	<string name="por">*</string>
+	<string name="menos">-</string>
+	<string name="entre">÷</string>
+	<string name="openParentesis">(</string>
+	<string name="closeParentesis">)</string>
+	<string name="F_A">F|A</string><string name="F_P">F|P</string>
+	<string name="P_F">P|F</string>
+	<string name="P_A">P|A</string>
+	<string name="P_G">P|G</string>
+	<string name="F_G">F|G</string>
+	<string name="P_Gg">P|A*</string>
+	<string name="F_Gg">F|A*</string>
+	<string name="coma">,</string>
+	<string name="punto">.</string>
+	<string name="igual">=</string>
+	<string name="delete">DEL</string>
+	<string name="formulas">Formulas</string>
+	<string name="right">-→</string>
+	<string name="left">←-</string>
+	<string name="clear">C</string>
+	
+	<string name="interes">INTERÉS:</string>
+	<string name="interes_simple">Interés simple:</string>
+	<string name="interes_compuest">Interés compuesto:</string>
+	<string name="factores_equival">FACTORES DE EQUIVALENCIA:</string>
+	<string name="factores_pago_sim">FACTORES DE PAGO ÚNICO (PAGOS SIMPLES):</string>
+	<string name="P_dado_F">Valor presente de un pago simple (P/F):</string>
+	<string name="F_dado_P">Valor futuro de un pago simple (F/P):</string>
+	<string name="serie_pago_uniform">FACTORES DE SERIE DE PAGOS UNIFORME (ANUALIDAD):</string>	
+	<string name="val_serie_pago_uniform">Valor presente de una serie de pagos uniforme:</string>
+	<string name="val_serie_pago_uniform_inf">Valor presente de una serie de pagos uniforme infinita:</string>
+	<string name="val_futur_pago_uniform">Valor futuro de una serie de pagos uniforme:</string>
+	<string name="serie_pago_grad_lineal">FACTORES DE SERIE DE PAGOS CON GRADIENTE LINEAL:</string>
+	<string name="val_pres_serie_triang_pag">Valor presente de una serie triángulo de pagos:</string>
+    <string name="val_pres_serie_pag_grad_lin">Valor presente de una serie de pagos con gradiente lineal:</string>
+	<string name="serie_pago_gradiente_geom">FACTORES DE SERIE DE PAGOS CON GRADIENTE GEOMÉTRICA:</string>
+    <string name="val_pres_serie_pago_grad_geom">Valor presente de una serie de pagos con gradiente geométrica:</string>
+    <string name="tasa_int_nomin_y_tasa_int_efe">TASA DE INTERÉS NOMINAL Y TASA DE INTERÉS EFECTIVA:</string>
+    <string name="tasa_efec_a_de_tasa_nom_anual">Cálculo de la tasa efectiva anual a partir de la tasa nominal anual:</string>
+    <string name="tasa_int_efec_capit_continua">Cálculo de tasas de interés efectivas con capitalización continua:</string>
+    <string name="tasa_efect_de_otra_tasa_efect">Determinación de una tasa efectiva a partir de otra tasa efectiva:</string>
+
+	<string name="int_pag_por_adelant">INTERESES PAGADOS POR ADELANTADO:</string>
+	
+	<string name="ope_de_credito">OPERACIONES DE CRÉDITO:</string>
+	<string name="cuota_de_pago">Cuota de pago (C):</string>
+	<string name="cred_cuot_igua">CRÉDITO CON CUOTAS IGUALES:</string>
+	<string name="cred_amort_cte">CRÉDITO CON AMORTIZACIÓN CONSTANTE (CUOTAS DECRECIENTES):</string>
+	<string name="cred_cuota_crecientes">CRÉDITO CON CUOTAS CRECIENTES (SUMA DE DÍGITOS):</string>
+	
+	<string name="cred_cuota_igual_y_peri_gracia">CRÉDITO CON CUOTAS IGUALES Y PERÍODOS DE GRACIA:</string>	
+	<string name="cred_cuota_igual_int_adelantad">CRÉDITO CON CUOTAS IGUALES E INTERESES PAGADOS POR ADELANTADO:</string>
+    <string name="cred_cuota_igual_peri_gracia_int_adelantad">CRÉDITO CON CUOTAS IGUALES, PERÍODOS DE GRACIA E INTERESES PAGADOS POR ADELANTADO:</string>
+	<string name="cred_comer_credito_flat">CRÉDITO COMERCIAL O CRÉDITO FLAT</string>
+	<string name="tipo_cambio">TIPO DE CAMBIO (TC)</string> 
+	
+
+	<string name="devaluacion">Devaluación:</string>
+	<string name="devalucionocte">Devaluación no constante:</string>
+	<string name="tc_dev_no_cte">Tipo de Cambio con Devaluación no cte:</string>
+	<string name="tc_dev_cte">Tipo de Cambio con Devaluación cte:</string>
+	<string name="con_flu_caj_dev_cte">Conversión de Flujo de caja si Devaluación es cte:</string>
+	<string name="revaluacion">Revaluación:</string>
+	<string name="revaluacion_con_dev_cte">Revaluacion con devaluación cte:</string>	
+	<string name="financiamientobonos">FINANCIAMIENTO CON EMISIÓN DE BONOS:</string>	
+    <string name="bonosEmisora">Costo Financiero de la empresa emisora(icf):</string>
+    <string name="bonosAdquiriente">Rentabilidad del adquiriente del bono(iR):</string>
+    
+    	<!-- indicar refinanciacion e interes moratorio y compensatorio -->
+	
+    <string name="inflacion">Inflación:</string>
+    <string name="rel_int_real_corr">Relación Tasa De Interés Real y Corriente:</string>
+    <string name="deflactacion">Deflactación:</string>
+    
+    <string name="estados_financieros">ESTADOS FINANCIEROS</string>
+    <string name="balance">Balance General:</string>
+    <string name="cuentas_es_gan_per">Cuentas del estado de ganancias y pérdidas:</string>    
+	<string name="financiamientoacciones">FINANCIAMIENTO CON EMISIÓN DE ACCIONES:</string>
+    <string name="acciones_preferentes">Acciones Preferentes:</string>
+    <string name="acciones_comunes">Acciones Comunes:</string>
+    <string name="costo_pond_capital">Costo Ponderado del Capital(K):</string>
+	<string name="esc_tribut_gast_financ">ESCUDO TRIBUTARIO POR GASTOS FINANCIEROS:</string>	
+	<string name="costo_pond_capital_di">COSTO PONDERADO DE CAPITAL DESPUÉS DE IMPUESTO A LA RENTA:</string>
+	<string name="depreciacion">DEPRECIACIÓN:</string>
+	<string name="met_linea_recta">Método de la línea recta (LR):</string>
+	<string name="met_suma_digitos">Método de la suma de dígitos anuales (SDA):</string>		
+	<string name="escud_tribut_deprecia">ESCUDO TRIBUTARIO DE LOS GASTOS DE DEPRECIACIÓN:</string>	
+	<string name="evalu_proyectos">EVALUACIÓN DE PROYECTOS:</string>	
+	<string name="flujo_caja_economico">EL FLUJO DE CAJA ECONÓMICO:</string>	
+	<string name="vpn">Valor Presente Neto(VPN):</string>		
+	<string name="decision_vpn">Regla de decisión del VPN:</string>		
+	<string name="tmar">TASA MÍNIMA ATRACTIVA DE RETORNO (TMAR):</string>	
+	<string name="tir">La Tasa Interna de Retorno (TIR):</string>	
+	<string name="decision_tir">Regla de decisión de la TIR:</string>
+	<string name="evaluaci_vida_diferent">EVALUACIÓN DE PROYECTOS CON VIDAS DIFERENTES:</string>
+	<string name="vae">El Valor Anual Equivalente (VAE):</string>
+	
+	
+	<string name="sugerencias">SUGERENCIAS:</string>
+</resources>

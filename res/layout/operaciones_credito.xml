@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/ope_de_credito" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:textStyle="bold"
+         android:text="@string/cuota_de_pago" />
+	<TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="Cuota = Amortización + Intereses"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+	 <TextView
+          android:id="@+id/TextView4"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_cuot_igua" />
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="Calculo de la Cuota:" />
+	 <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="P = Cuota(P/A ,i ,n)"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+     <TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_amort_cte" />
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Calculo de la Amortizacion:" />
+	 <TextView
+         android:id="@+id/textView6"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical|center_horizontal"
+         android:layout_weight="1"
+         android:gravity="center"
+         android:text="A = P/n"
+         android:textAlignment="center"
+         android:textSize="20sp"
+         android:textStyle="bold" />
+	<TextView
+          android:id="@+id/TextView01"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/cred_cuota_crecientes"/>
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Cálculo de las amortizaciones:"/>
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="S = Suma de dígitos anuales"/>
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="S = n(n+1)/2"/>
+	 <TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Factor de amortización = ft = t / S"/>
+	<TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Amortización = ft * P"/>
+	<TextView
+          android:id="@+id/TextView5"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:text="Nota: La amortización es una proporción del principal"/>
+  </LinearLayout>
+
+ </ScrollView>
+</TableLayout>

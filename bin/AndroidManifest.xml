@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appingeco3"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.FormularioActivity"
+            android:label="Formulario" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.CalculadoraActivity"
+            android:label="Calculadora" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.InteresActivity"
+            android:label="Interes" >
+        </activity>
+		<activity
+            android:name="com.edu.pucp.appingeco.activities.content.FactoresEquivalenciaActivity"
+            android:label="Factores_Equivalencia" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.FactoresEquivalencia1Activity"
+            android:label="Factores_Equivalencia1" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.FactoresEquivalencia2Activity"
+            android:label="Factores_Equivalencia1" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.TasaNominalEfectivaActivity"
+            android:label="Factores_Equivalencia1" >
+        </activity>
+         <activity
+            android:name="com.edu.pucp.appingeco.activities.content.OperacionesCreditoActivity"
+            android:label="Operaciones_Credito" >
+        </activity>
+         <activity
+            android:name="com.edu.pucp.appingeco.activities.content.OperacionesCredito1Activity"
+            android:label="Operaciones_Credito1" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.DevaluacionActivity"
+            android:label="Devaluacion" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.BonosActivity"
+            android:label="Bonos" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.InflacionActivity"
+            android:label="Inflacion" >
+        </activity>
+ 		<activity
+            android:name="com.edu.pucp.appingeco.activities.content.ConceptosContablesActivity"
+            android:label="Conceptos_Contables" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.AccionesActivity"
+            android:label="Acciones" >
+        </activity>
+         <activity
+            android:name="com.edu.pucp.appingeco.activities.content.CostoPonderadoActivity"
+            android:label="Costo Ponderado" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.DepreciacionActivity"
+            android:label="Depreciacion" >
+        </activity>
+        <activity
+            android:name="com.edu.pucp.appingeco.activities.content.EvaluacionPrysActivity"
+            android:label="Evaluacion_Proyectos" >
+        </activity>
+    </application>
+
+</manifest>

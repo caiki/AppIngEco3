@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"     
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+  
+<ScrollView
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >  
+
+  <LinearLayout
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:orientation="vertical" >
+
+     <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/financiamientoacciones" />
+	 <TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/acciones_preferentes" />
+ <TextView
+	  	      android:id="@+id/accionesTextView02"
+	  	      android:layout_width="wrap_content"
+	  	      android:layout_height="wrap_content"
+	  	      android:layout_weight="1"
+ 			/>
+	  <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/accion_preferent" />
+
+<TextView
+          android:id="@+id/TextView03"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:textStyle="bold"
+          android:text="@string/acciones_comunes" />
+ <TextView
+	  	      android:id="@+id/accionesTextView03"
+	  	      android:layout_width="wrap_content"
+	  	      android:layout_height="wrap_content"
+	  	      android:layout_weight="1"
+ 			/>
+	  	  <ImageView
+         android:id="@+id/ImageView01"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:src="@drawable/accion_comun" />
+
+	  	  <TextView
+	  	      android:id="@+id/accionesTextView01"
+	  	      android:layout_width="wrap_content"
+	  	      android:layout_height="wrap_content"
+	  	      android:layout_weight="1"
+ 			/>
+
+	 </LinearLayout>
+
+ </ScrollView>
+</TableLayout>
